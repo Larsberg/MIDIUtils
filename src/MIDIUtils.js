@@ -11,10 +11,6 @@
 		var index = i,
 			key = notes[ index % 12 ],
 			octave = ((index / 12) | 0) - 1; // MIDI scale starts at octave = -1
-
-		if(key.length === 1) {
-			noteMap[ key + '-' + octave ] = i;
-		}
 		
 		//	i believe that the 'b' means flat and the # means sharp
 		// 	sound fonts seem to use the 'b' notation rather then the '#'
