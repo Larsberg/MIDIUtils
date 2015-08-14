@@ -19,7 +19,7 @@
 		//	i believe that the 'b' means flat and the # means sharp
 		// 	sound fonts seem to use the 'b' notation rather then the '#'
 		// 	so I'm including the 'b' notation as well.
-		// 	but this set up will only return sharp notes with nameToNote
+		// 	however, this set up will only return sharp notes with noteToName
 		// 	
 		// 	from what I saw in wikipedia that should mean that F# === Gb, right?
 		//	Db == C#, Eb == D#, Fb == E, Gb == F#, Ab == G#, Bb == A#, Cb == B
